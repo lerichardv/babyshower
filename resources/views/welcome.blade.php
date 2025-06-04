@@ -68,7 +68,7 @@
                     <div class="grid md:grid-cols-2 gap-12 items-center">
                         <div>
                             <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900">
-                                <svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--twemoji w-[100px] mb-2 -ml-5" preserveAspectRatio="xMidYMid meet" fill="#000000">
+                                {{-- <svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--twemoji w-[100px] mb-2 -ml-5" preserveAspectRatio="xMidYMid meet" fill="#000000">
                                     <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
                                     <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
                                     <g id="SVGRepo_iconCarrier">
@@ -95,8 +95,9 @@
                                         <path fill="#292F33" d="M18.087 14.138c-1.28 0-2.249-.947-2.264-.961a.25.25 0 0 1 .353-.354c.075.074 1.849 1.797 3.647 0a.25.25 0 1 1 .354.354c-.721.721-1.445.961-2.09.961z"></path>
                                         <path fill="#934035" d="M15.95 29.727a.5.5 0 0 1-.449-.28c-2.274-4.635-6.795-3.15-6.986-3.086a.5.5 0 0 1-.326-.946c.055-.02 5.543-1.845 8.21 3.592a.5.5 0 0 1-.449.72zm4.101 0a.499.499 0 0 1-.46-.695c2.255-5.301 8.141-3.641 8.198-3.623a.499.499 0 0 1 .339.619a.505.505 0 0 1-.619.341c-.207-.061-5.096-1.42-6.998 3.054a.502.502 0 0 1-.46.304z"></path>
                                     </g>
-                                </svg>
-                                <span class="block text-3xl mb-5 font-quicksand font-light">Lista de regalitos para</span>
+                                </svg> --}}
+                                <img class="w-[180px]" src="{{ asset('images/teddy.png') }}" alt="">
+                                <span class="block text-3xl mb-5 font-quicksand font-light">Baby shower</span>
                                 <span class="block font-pacifico !bg-clip-text text-transparent bg-gradient-magical leading-[1.5em]">Ivy Giselle <br> Valladares Hernandez</span>
                             </h1>
                             <p class="mt-6 text-lg text-gray-700 max-w-lg leading-relaxed">
@@ -121,6 +122,16 @@
                         <div class="px-4 py-5 sm:p-6">
                             @livewire('wishlist-display')
                         </div>
+                    </div>
+
+                    <div class="mt-8 px-5 py-3 bg-pink-50 rounded-xl shadow-lg flex flex-col md:flex-row items-center gap-5">
+                        <img class="w-[150px]" src="{{ asset('images/teddy-flying.png') }}" alt="">
+                        <p class="">
+                            Estamos alegres de compartir con usted este momento único para nuestra hija Ivy Giselle Valladares Hernandez. <br>
+                            Celebramos con gozo la llegada de una nueva vida, creada y amada por Dios desde el vientre.
+                            <br>
+                            <b class="font-pacifico text-2xl text-pink-500">Salmo 139:14</b>
+                        </p>
                     </div>
                 </div>
             </div>
